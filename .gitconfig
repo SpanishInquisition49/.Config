@@ -1,0 +1,7 @@
+[user]
+	name = Gabriele
+	email = 71408527+SpanishInquisition49@users.noreply.github.com
+[init]
+	defaultBranch = main
+[core]
+	autocrlf = input
