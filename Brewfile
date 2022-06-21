@@ -1,5 +1,5 @@
 # Specify a directory to install
-# cask_args appdir: '/Applications'
+cask_args appdir: '/Applications'
 # Install Packages
 tap "homebrew/bundle"
 tap "homebrew/cask"
