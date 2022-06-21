@@ -1,5 +1,6 @@
 #!/bin/bash
 ln -s "$(pwd)/dotfiles/.gitconfig" ~/.gitconfig
+ln -s "$(pwd)/dotfiles/.bash_profile" ~/.bash_profile 
 
 # Linux
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
