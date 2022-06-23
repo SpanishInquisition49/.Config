@@ -1,8 +1,17 @@
 #!/bin/bash
+# Create Symbolic Link
 ln -s "$(pwd)/dotfiles/.gitconfig" ~/.gitconfig
 ln -s "$(pwd)/dotfiles/.bash_profile" ~/.bash_profile
-ln -s "$(pwd)/dotfiles/.zshrc" ~/.zshrc 
+ln -s "$(pwd)/dotfiles/.zshrc" ~/.zshrc
+ln -s "$(pwd)/dotfiles/.zsh_plugins" ~/.zsh_plugins
 
+# Installing ZSH Plugins
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git dotfiles/.zsh_plugins/zsh-syntax-highlighting/
+echo "source $HOME/.zsh_plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+git clone https://github.com/MichaelAquilina/zsh-you-should-use.git dotfiles/.zsh_plugins/zsh-you-should-use/
+echo "source $HOME/.zsh_plugins/zsh-you-should-use/zsh-you-should-use.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+
+#Installing Packages
 # Linux
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     echo "Linux Detected"
