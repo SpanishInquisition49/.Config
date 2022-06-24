@@ -8,8 +8,6 @@ ln -s "$(pwd)/dotfiles/.zsh_plugins" ~/.zsh_plugins
 # Installing ZSH Plugins
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git dotfiles/.zsh_plugins/zsh-syntax-highlighting/
 echo "source $HOME/.zsh_plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
-git clone https://github.com/MichaelAquilina/zsh-you-should-use.git dotfiles/.zsh_plugins/zsh-you-should-use/
-echo "source $HOME/.zsh_plugins/zsh-you-should-use/zsh-you-should-use.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 
 #Installing Packages
 # Linux
@@ -23,4 +21,8 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     brew tap Homebrew/bundle
     brew bundle --file Brewfile
 fi
+
+#Installing VS Code extensions
+cat vs_extensions.txt | xargs -L 1 code --install-extension 
+
 echo "Done!"
