@@ -6,4 +6,4 @@
   
 * ```chmod +x importer.sh```
   
-* ```./importer.sh```
+* ```sudo ./importer.sh```
