@@ -17,6 +17,10 @@
     "dashboard.projectData": null,
     "liveServer.settings.donotShowInfoMsg": true,
     "cmake.configureOnOpen": true,
+<<<<<<< HEAD
+=======
+    "ponicode.token": "40095dc7-3497-4042-a268-819532dafcda",
+>>>>>>> 78d6cd3ba9df9401bfa41db8c742bd0bdeb6ca51
     "webview.experimental.useExternalEndpoint": true,
     "ponicode.watchMode": true,
     "quokka.showStartViewOnFeatureRelease": false,
