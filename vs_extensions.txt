@@ -78,6 +78,7 @@ sldobri.daily
 stackbreak.comment-divider
 stevencl.addDocComments
 streetsidesoftware.code-spell-checker
+streetsidesoftware.code-spell-checker-italian
 syler.sass-indented
 twxs.cmake
 usernamehw.errorlens

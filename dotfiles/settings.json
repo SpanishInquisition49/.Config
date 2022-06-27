@@ -45,6 +45,7 @@
     "terminalAllInOne.terminalTheme": "Phd",
     "terminal.integrated.tabs.location": "left",
     "workbench.colorTheme": "Nebula Pandas Theme",
+    "cSpell.language": "en,it",
     "cSpell.userWords": [
         "apre",
         "camelcase",
@@ -54,5 +55,6 @@
         "prodotto"
     ],
     "githubPullRequests.createOnPublishBranch": "never",
-    "typescript.updateImportsOnFileMove.enabled": "always"
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "codesnap.backgroundColor" : "#000000"
 }

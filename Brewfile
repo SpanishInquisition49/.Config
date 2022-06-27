@@ -1,6 +1,4 @@
-# Specify a directory to install
 cask_args appdir: '/Applications'
-# Install Packages
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
@@ -10,7 +8,6 @@ brew "apr-util"
 brew "cmake"
 brew "cowsay"
 brew "curl"
-brew "wget"
 brew "fortune"
 brew "freetds"
 brew "unbound"
@@ -30,4 +27,5 @@ brew "php"
 brew "python@3.9"
 brew "ragel"
 brew "sassc"
+brew "wget"
 brew "yarn"

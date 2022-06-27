@@ -6,3 +6,4 @@ export SDKMAN_DIR="$HOME/.sdkman"
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 source /Users/gabrielescannagatti/.zsh_plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/gabrielescannagatti/.zsh_plugins/zsh-autosuggestions/zsh-autosuggestions.zsh

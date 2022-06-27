@@ -78,4 +78,6 @@ echo "Installing ZSH plugins"
 # Installing ZSH Plugins
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git dotfiles/.zsh_plugins/zsh-syntax-highlighting/
 echo "source $HOME/.zsh_plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+git clone https://github.com/zsh-users/zsh-autosuggestions dotfiles/.zsh_plugins/zsh-autosuggestions/
+echo "source $HOME/.zsh_plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 echo "Done!"
