@@ -69,9 +69,12 @@ rm ~/.zshrc
 rm ~/.zshrc.pre-oh-my-zsh
 mv ~/.oh-my-zsh "(pwd)/dotfiles/"
 
-# Installing Dracula Theme for ZSH
-git clone https://github.com/dracula/zsh.git "$(pwd)/dotfiles/.zsh_theme/dracula"
-ln -s $(pwd)/dotfiles/.zsh_theme/dracula.zsh-theme $(pwd)/dotfiles/.oh-my-zsh/themes/dracula.zsh-theme
+# Installing Dracula Pro
+echo "Installing Dracula Pro"
+unzip "Dracula Pro - Zeno Rocha.zip" -d DraculaPro
+ln -s $(pwd)/DraculaPro/themes/zsh/dracula-pro.zsh-theme $(pwd)/dotfiles/.oh-my-zsh/themes/dracula-pro.zsh-theme
+code --install-extension DraculaPro/themes/visual-studio-code/dracula-pro.vsix
+
 echo "Installing ZSH plugins"
 # Installing ZSH Plugins
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $(pwd)dotfiles/.oh-my-zsh/plugins/zsh-syntax-highlighting/
