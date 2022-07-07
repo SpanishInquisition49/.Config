@@ -4,7 +4,9 @@ DotJoshJohnson.xml
 EditorConfig.EditorConfig
 GitHub.remotehub
 GitHub.vscode-pull-request-github
+GitLab.gitlab-workflow
 James-Yu.latex-workshop
+MariusAlchimavicius.json-to-ts
 PKief.material-icon-theme
 Shan.code-settings-sync
 VisualStudioExptTeam.vscodeintellicode

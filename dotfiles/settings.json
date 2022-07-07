@@ -17,18 +17,15 @@
   "workbench.colorTheme": "Dracula Pro (Van Helsing)",
   "cSpell.language": "en,it",
   "cSpell.userWords": [
-    "apre",
     "camelcase",
-    "carica",
-    "codice",
-    "nuova",
-    "prodotto"
+    "mhtml",
+    "networkidle"
   ],
   "githubPullRequests.createOnPublishBranch": "never",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "codesnap.backgroundColor": "#000000",
-  "vim.useSystemClipboard": true,
   "workbench.preferredDarkColorTheme": "Dracula Pro (Van Helsing)",
-  "gitlens.defaultGravatarsStyle": "retro",
+  "gitlens.views.contributors.avatars": true,
+  "gitlens.defaultGravatarsStyle": "robohash",
   "telemetry.telemetryLevel": "off"
 }
