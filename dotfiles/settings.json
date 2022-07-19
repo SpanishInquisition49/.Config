@@ -16,16 +16,30 @@
   "terminal.integrated.tabs.location": "left",
   "workbench.colorTheme": "Dracula Pro (Van Helsing)",
   "cSpell.language": "en,it",
-  "cSpell.userWords": [
-    "camelcase",
-    "mhtml",
-    "networkidle"
-  ],
+  "cSpell.userWords": ["camelcase", "mhtml", "networkidle"],
   "githubPullRequests.createOnPublishBranch": "never",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "codesnap.backgroundColor": "#000000",
   "workbench.preferredDarkColorTheme": "Dracula Pro (Van Helsing)",
   "gitlens.views.contributors.avatars": true,
   "gitlens.defaultGravatarsStyle": "robohash",
-  "telemetry.telemetryLevel": "off"
+  "telemetry.telemetryLevel": "off",
+  "git.mergeEditor": true,
+  "window.commandCenter": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.minimap.enabled": false,
+  "material-icon-theme.folders.theme": "specific",
+  "git.rebaseWhenSync": true,
+  "colorize.colorized_colors": [
+    "HEXA"
+  ],
+  "colorize.include": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less",
+    "**/*.styl",
+    "**/*.txt",
+    "**/*.md"
+  ],
 }

@@ -76,7 +76,7 @@ ZSH_THEME="dracula-pro"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(zsh-syntax-highlighting zsh-autosuggestions zsh-wakatime)
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -111,3 +111,10 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# bun completions
+[ -s "/Users/gabrielescannagatti/.bun/_bun" ] && source "/Users/gabrielescannagatti/.bun/_bun"
+
+# Bun
+export BUN_INSTALL="/Users/gabrielescannagatti/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
